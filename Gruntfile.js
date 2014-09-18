@@ -9,34 +9,26 @@ module.exports = function(grunt) {
                 }
             }
         },
-        'gh-pages': {
-            options: {
-                clone: 'bower_components/my-repo'
+        'watch': {
+            all: {
+                options: {
+                    livereload: true
+                },
+                files: [
+                    '*.html',
+                    'examples/**/*.html',
+                    'tests/*.js'
+                ],
+                // tasks: ['jshint'],
             },
-            src: [
-                'bower_components/**/*',
-                '!bower_components/my-repo/**/*',
-                'demo/*', 'src/*', 'index.html'
-            ]
-        },
-        'replace': {
-            example: {
-                src: ['src/*'],
-                dest: 'dist/',
-                replacements: [{
-                    from: 'bower_components',
-                    to: '..'
-                }]
-            }
         }
     });
 
-    grunt.loadNpmTasks('grunt-contrib-connect');
-    grunt.loadNpmTasks('grunt-gh-pages');
-    grunt.loadNpmTasks('grunt-text-replace');
 
-    grunt.registerTask('build',  ['replace']);
-    grunt.registerTask('deploy', ['gh-pages']);
+    grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+
     grunt.registerTask('server', ['connect']);
+    grunt.registerTask('default', ['watch']);
 
 };
