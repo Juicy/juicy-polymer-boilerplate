@@ -22,10 +22,10 @@ Or [download as ZIP](https://github.com/Juicy/juicy-element/archive/master.zip).
 
 ## Usage
 
-1. Import Web Components' polyfill:
+1. Import Web Components' polyfill, if needed:
 
     ```html
-    <script src="bower_components/platform/platform.js"></script>
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
     ```
 
 2. Import Custom Element:
