@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "description": "Awesome, Juicy Polymer Element",
     "license": "MIT",
-    "main": "src/juicy-element.html",
+    "main": "juicy-element.html",
     "keywords": [
         "polymer",
         "web-components",
@@ -16,6 +16,6 @@
         "preview.png"
     ],
     "dependencies": {
-        "polymer": "Polymer/polymer#~0.5.5"
+        "polymer": "Polymer/polymer#^1.0.0"
     }
 }

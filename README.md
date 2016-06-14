@@ -31,7 +31,7 @@ Or [download as ZIP](https://github.com/Juicy/juicy-element/archive/master.zip).
 2. Import Custom Element:
 
     ```html
-    <link rel="import" href="bower_components/juicy-element/src/juicy-element.html">
+    <link rel="import" href="bower_components/juicy-element/juicy-element.html">
     ```
 
 3. Start using it!
