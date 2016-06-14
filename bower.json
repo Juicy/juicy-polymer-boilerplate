@@ -19,7 +19,8 @@
     "Gruntfile.json"
   ],
   "dependencies": {
-    "webcomponentsjs": "^0.7.2"
+    "webcomponentsjs": "^0.7.2",
+    "polymer": "^1.5.0"
   },
   "devDependencies": {
     "web-component-tester": "^4.2.1"
