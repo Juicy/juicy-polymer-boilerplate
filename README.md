@@ -18,14 +18,14 @@ Install the component using [Bower](http://bower.io/):
 $ bower install juicy-element --save
 ```
 
-Or [download as ZIP](https://github.com/Juicy/juicy-element/archive/master.zip).
+Or [download as ZIP](https://github.com/Juicy/juicy-element/archive/gh-pages.zip).
 
 ## Usage
 
 1. Import Web Components' polyfill, if needed:
 
     ```html
-    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
     ```
 
 2. Import Custom Element:
@@ -58,14 +58,7 @@ Event         | Description
 ---           | ---
 `onsomething` | Triggers when something happens.
 
-
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+## [Contributing and Development](CONTRIBUTING.md)
 
 ## History
 

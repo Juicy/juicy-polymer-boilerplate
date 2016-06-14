@@ -1,21 +1,27 @@
 {
-    "name": "juicy-element",
-    "version": "0.0.0",
-    "description": "Awesome, Juicy Polymer Element",
-    "license": "MIT",
-    "main": "juicy-element.html",
-    "keywords": [
-        "polymer",
-        "web-components",
-        "juicy"
-    ],
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "preview.png"
-    ],
-    "dependencies": {
-        "polymer": "Polymer/polymer#^1.0.0"
-    }
+  "name": "juicy-element",
+  "version": "0.0.0",
+  "description": "Awesome, Juicy Polymer Element",
+  "license": "MIT",
+  "main": "juicy-element.html",
+  "keywords": [
+    "polymer",
+    "web-components",
+    "juicy"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "preview.png",
+    "package.json",
+    "Gruntfile.json"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "^0.7.2"
+  },
+  "devDependencies": {
+    "web-component-tester": "^4.2.1"
+  }
 }
