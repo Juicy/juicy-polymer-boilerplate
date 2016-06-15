@@ -1,4 +1,4 @@
-# &lt;juicy-element&gt;
+# &lt;juicy-element&gt; [![Build Status](https://travis-ci.org/Juicy/juicy-element.svg?branch=gh-pages)](https://travis-ci.org/Juicy/juicy-element)
 
 > A bare minimum custom element starter-kit using [Polymer](http://www.polymer-project.org/).
 >
