@@ -58,6 +58,12 @@ Event         | Description
 ---           | ---
 `onsomething` | Triggers when something happens.
 
+## CSS Custom Properties
+
+Name                          | Description
+---                           | ---
+`--juicy-element-laser-color` | Color of the shooted lasers.
+
 ## [Contributing and Development](CONTRIBUTING.md)
 
 ## History
