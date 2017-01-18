@@ -1,4 +1,4 @@
-# &lt;juicy-element&gt; [![Build Status](https://travis-ci.org/Juicy/juicy-element.svg?branch=gh-pages)](https://travis-ci.org/Juicy/juicy-element)
+# &lt;juicy-element&gt; [![Build Status](https://travis-ci.org/Juicy/juicy-element.svg?branch=master)](https://travis-ci.org/Juicy/juicy-element)
 
 > A bare minimum custom element starter-kit using [Polymer](http://www.polymer-project.org/).
 >
@@ -18,7 +18,7 @@ Install the component using [Bower](http://bower.io/):
 $ bower install juicy-element --save
 ```
 
-Or [download as ZIP](https://github.com/Juicy/juicy-element/archive/gh-pages.zip).
+Or [download as ZIP](https://github.com/Juicy/juicy-element/archive/master.zip).
 
 ## Usage
 
